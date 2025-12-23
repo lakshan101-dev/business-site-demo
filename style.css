@@ -122,17 +122,11 @@ a {
 }
 
 a:hover {
-  border-color: hsl(43, 86%, 66%);
-  background: hsla(43, 86%, 66%, 0.6);
   color: hsl(0, 0%, 0%);
   text-shadow: 0 0 0.2rem hsla(0, 0%, 0%, 0.4);
-
-  box-shadow:
-    hsla(43, 86%, 66%, 0.4) 0 0 0.06rem 0.06rem inset,
-    rgba(0, 255, 115, 0.2) 0 0 0.06rem 0.06rem inset,
-    rgba(0, 0, 0, 0.1) 0 0 0.06rem 0.06rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.19), rgba(0, 0, 0, 0.314)) center center / cover, hsl(123, 86%, 66%);
+  box-shadow: hsla(123, 86%, 66%, 0.4) 0px 0px 10px 0px, rgba(255, 255, 255, 0.4) 0px 2.18px 3.64px 1.45px inset, rgba(0, 0, 0, 0.2) 0px -1.45px 0px 0px inset, rgba(0, 0, 0, 0.1) 0px 0.73px 0.73px 0.73px;
 }
-
 #top-bar {
   display: flex;
   justify-content: space-between;
@@ -157,7 +151,6 @@ a:hover {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.19), rgba(0, 0, 0, 0.314)) center center / cover, rgb(255, 255, 255);
   box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 20px 0px, rgba(255, 255, 255, 0.4) 0px 2.18px 3.64px 1.45px inset, rgba(0, 0, 0, 0.2) 0px -1.45px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.73px 0.73px 0.73px;
 }
-
 #logo{
   width: 50px;
   border-radius: 50%;
@@ -172,4 +165,9 @@ a:hover {
 0% { filter: brightness(1) }
 100% { filter: brightness(1.1) }
 }
-
+.btm {
+  margin-top: 90px;
+  border: none;
+  height: 1px;
+  background-color: hsl(0, 0%, 10%);
+}
