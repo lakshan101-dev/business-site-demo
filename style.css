@@ -117,13 +117,13 @@ a {
 }
 
 a:hover {
-  border-color: hsla(145, 100%, 22%, 0.9);
-  background: hsla(145, 86%, 66%, 0.4);
-  color: hsl(0, 0%, 4%);
+  border-color: hsl(43, 86%, 66%);
+  background: hsla(43, 86%, 66%, 0.6);
+  color: hsl(0, 0%, 0%);
   text-shadow: 0 0 0.2rem hsla(0, 0%, 0%, 0.4);
 
   box-shadow:
-    hsla(145, 86%, 66%, 0.4) 0 0 0.06rem 0.06rem inset,
+    hsla(43, 86%, 66%, 0.4) 0 0 0.06rem 0.06rem inset,
     rgba(0, 255, 115, 0.2) 0 0 0.06rem 0.06rem inset,
     rgba(0, 0, 0, 0.1) 0 0 0.06rem 0.06rem;
 }
