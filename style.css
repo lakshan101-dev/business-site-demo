@@ -91,7 +91,7 @@ a {
   transition: 0.1s;
   font-family: 'HOME', sans-serif;
   font-weight: 100;
-  font-size: 24px;
+  max-block-size: 24px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 1px 1px inset, rgba(41, 41, 41, 0.3) 0 0 1px 1px inset, rgba(24, 24, 24, 0.1) 0 0 1px 1px;
 }
 a:hover {
@@ -140,3 +140,4 @@ a:hover {
 0% { filter: brightness(1) }
 100% { filter: brightness(1.1) }
 }
+
