@@ -38,6 +38,7 @@ hr {
 }
 #head {
   color: hsl(145, 80%, 44%);
+  -webkit-text-stroke: 1px hsl(145, 89%, 52%);
   text-align: center;
   font-size: 7.625rem;
   /* text-shadow: 0 0 1px #0DB952; */
