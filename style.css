@@ -13,12 +13,17 @@
 
 body {
   background: hsl(0, 0%, 2%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .body {
-  background: hsl(0, 0%, 4%);
+  /* background: hsl(0, 0%, 4%); */
   width: 98vw;
   height: 98vh;
-  border: 1px solid hsl(240, 2%, 10%);
+  /* border: 1px solid hsl(240, 2%, 10%); */
+  background: linear-gradient(135deg, hsla(0, 0%, 2%, 0.19), hsla(166, 78%, 5%, 0.314), hsla(0, 0%, 3%, 0.29)) center center / cover, hsl(0, 0%, 0%);
+  box-shadow: hsl(0, 0%, 6%) 0px 0px 1px 1px, hsla(0, 7%, 14%, 0.4) 0px 0px 1px 1px inset, hsla(0, 0%, 0%, 0.2) 0px 0px 1px 1px inset, rgba(255, 255, 255, 0.1) 0px 0.73px 0.73px 0.73px;
   border-radius: 12px;
   margin: 0 auto;
 }
