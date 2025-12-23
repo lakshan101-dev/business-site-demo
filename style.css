@@ -34,18 +34,16 @@ hr {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-
 }
 #head {
-  color: hsl(145, 80%, 44%);
-  -webkit-text-stroke: 1px hsl(145, 89%, 52%);
+  color: hsl(145, 100%, 40%);
+  -webkit-text-stroke: 1px hsl(145, 100%, 50%);
   text-align: center;
   font-size: 7.625rem;
   /* text-shadow: 0 0 1px #0DB952; */
   font-family: 'brock', sans-serif;
   margin-bottom: 10px;
   /* text-shadow: 0 0 10px rgba(95, 243, 162, 0.4), 0 2.18px 5px rgba(255, 255, 255, 0.4), 0 -1.45px 0 rgba(0, 0, 0, 0.2), 0 0.73px 0.73px rgba(0, 0, 0, 0.1); */
-
 }
 #sub-txt {
   color: transparent;
@@ -55,8 +53,8 @@ hr {
   font-family: 'brock', sans-serif;
   margin-top: 0px;
   background: linear-gradient(
-    90deg,
-    hsl(0, 0%, 35%), hsl(0, 0%, 90%)
+  90deg,
+  hsl(0, 0%, 35%), hsl(0, 0%, 90%)
   );
   background-size: 300%;
   -webkit-background-clip: text;
@@ -88,21 +86,20 @@ a {
   border: none;
   border-radius: 5px;
   /* background:radial-gradient(hsl(0, 0%, 8%), hsl(0, 0%, 3%)); */
-  /* border: 1px solid hsl(0, 0%, 6%); */
+  border: transparent 1px solid;
   text-shadow: 0 0 7px hsla(0, 0%, 50%, 0.4);
   transition: 0.1s;
   font-family: 'HOME', sans-serif;
   font-weight: 100;
   font-size: 24px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 0 1px 1px inset, rgba(41, 41, 41, 0.3) 0 0 1px 1px inset, rgba(0, 0, 0, 0.1) 0 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 1px 1px inset, rgba(41, 41, 41, 0.3) 0 0 1px 1px inset, rgba(24, 24, 24, 0.1) 0 0 1px 1px;
 }
 a:hover {
-  background:radial-gradient(hsla(135, 99%, 28%, 0.152), hsl(0, 0%, 3%, 0.152));
-  border: none;
-  color: hsl(145, 86%, 66%);
-  text-shadow: 0 0 3px hsla(145, 86%, 66%, 0.4);
-  /* box-shadow: hsla(145, 86%, 66%, 0.2) 0 0 1px 1px inset, rgba(0, 255, 115, 0.2) 0 0 1px 1px inset, rgba(0, 0, 0, 0.1) 0 0 1px 1px; */
-  box-shadow: none;
+  border: 1px solid hsla(145, 100%, 22%, 0.9);
+  background: hsla(145, 86%, 66%, 0.4);
+  color: hsl(0, 0%, 4%);
+  text-shadow: 0 0 3px hsla(0, 0%, 0%, 0.4);
+  box-shadow: hsla(145, 86%, 66%, 0.4) 0 0 1px 1px inset, rgba(0, 255, 115, 0.2) 0 0 1px 1px inset, rgba(0, 0, 0, 0.1) 0 0 1px 1px;
 }
 #top-bar {
   display: flex;
@@ -127,7 +124,6 @@ a:hover {
   cursor: pointer;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.19), rgba(0, 0, 0, 0.314)) center center / cover, rgb(255, 255, 255);
   box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 20px 0px, rgba(255, 255, 255, 0.4) 0px 2.18px 3.64px 1.45px inset, rgba(0, 0, 0, 0.2) 0px -1.45px 0px 0px inset, rgba(255, 255, 255, 0.1) 0px 0.73px 0.73px 0.73px;
-
 }
 
 #logo{
