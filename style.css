@@ -37,13 +37,13 @@ hr {
 
 }
 #head {
-  color: hsl(145, 86%, 66%);
+  color: hsl(145, 80%, 44%);
   text-align: center;
   font-size: 7.625rem;
   /* text-shadow: 0 0 1px #0DB952; */
   font-family: 'brock', sans-serif;
   margin-bottom: 10px;
-  text-shadow: 0 0 10px rgba(95, 243, 162, 0.4), 0 2.18px 5px rgba(255, 255, 255, 0.4), 0 -1.45px 0 rgba(0, 0, 0, 0.2), 0 0.73px 0.73px rgba(0, 0, 0, 0.1);
+  /* text-shadow: 0 0 10px rgba(95, 243, 162, 0.4), 0 2.18px 5px rgba(255, 255, 255, 0.4), 0 -1.45px 0 rgba(0, 0, 0, 0.2), 0 0.73px 0.73px rgba(0, 0, 0, 0.1); */
 
 }
 #sub-txt {
