@@ -81,7 +81,7 @@ hr {
 a {
   text-decoration: none;
   color: hsl(0, 0%, 70%);
-  padding: 3px 12px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   /* background:radial-gradient(hsl(0, 0%, 8%), hsl(0, 0%, 3%)); */
@@ -113,6 +113,7 @@ a:hover {
   border-radius: 40px;
   font-family: 'HOME';
   transition: 0.1s;
+  font-size: 24px;
   color: hsl(240, 3%, 6%);
   /* text-shadow: 0 0 14px hsl(56, 100%, 50%); */
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.19), rgba(0, 0, 0, 0.314)) center center / cover, hsl(43, 86%, 66%);
